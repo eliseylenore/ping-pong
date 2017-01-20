@@ -5,9 +5,12 @@
 #### By _**By Elise St Hilaire**_
 
 ## Specifications
-**Program will return an error message if the user input is not a number, or if it is a negative number that cannot be counted to.**
+**Program will return an error message if:
+1. the user input is not a number, or
+2. if it is a negative number that cannot be counted to
+3. if the number was written out as a word**
 *Input: -3*
-*Output: We were not able to use your input. Please make sure that you are entering a number and it is more than zero.*
+*Output: I'm sorry, we weren't able to count up to that number. Please make sure that you are entering a number and it is more than zero. Also, please type the digit (3) instead of the word (three).*
 
 **Program will count up from 1 to the user's specified number.**
 *Input: 5*
@@ -24,6 +27,10 @@
 **Program will replace numbers divisible by 15 with "ping-pong"***
 *Input: 30*
 *Output: ping-pong*
+
+**Program will allow user to enter a new number and see new results over and over again***
+*Input: 5, 6*
+*Output: 12ping4pong, [replace with]12ping4pongping*
 
 
 ## Description
