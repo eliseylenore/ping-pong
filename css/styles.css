@@ -18,7 +18,15 @@ h1, .col-sm-9 h3 {
   text-align: center;
 }
 
+pre {
+  border: none;
+  line-height: 2rem;
+}
+
+/************  Heading/Jumbotron Styles  ************/
+
 .jumbotron h1 {
+  color: #f0ad4e;
   font-size: 60px;
   padding-top: 100px;
 }
@@ -39,15 +47,10 @@ h1, .col-sm-9 h3 {
   padding-bottom: 5rem;
 }
 
-pre {
-  border: none;
-  line-height: 2rem;
-}
-
 /************  Big Column Styles  ************/
 
 .col-sm-9, .col-sm-3 {
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .col-sm-9 h3 {
@@ -72,16 +75,20 @@ pre {
 }
 
 .col-sm-3 a {
-  color: lightblue;
+  color: #f6f696;
 }
 
 .col-sm-3 a:hover {
-  color: #f0ad4e;
+  color: lightblue;
 }
 
 .col-sm-3 h4 {
   padding-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.col-sm-3 h4, h5 {
+  color: #f0ad4e;
 }
 
 .col-sm-3 p {
