@@ -2,7 +2,7 @@ body {
   font-family: 'Itim', cursive;
 }
 
-p, li {
+p, li, label {
   font-size: 1.7rem;
 }
 
@@ -20,6 +20,8 @@ h1, .col-sm-9 h3 {
   font-size: 60px;
 }
 .jumbotron {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   color: white;
   text-shadow: 3px 3px #920000;
   margin-bottom: 0;
@@ -28,7 +30,7 @@ h1, .col-sm-9 h3 {
     rgba(0, 0, 0, 0.3)
     ),
   url(../img/pingpong.jpg);
-  background-position: cover;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -40,6 +42,10 @@ pre {
 
 .col-sm-9 {
   margin-top: 4rem;
+}
+
+.col-sm-9 h3 {
+  font-size: 32px;
 }
 
 .col-sm-9, pre {
@@ -55,6 +61,14 @@ pre {
   padding-left: 3rem;
   background-color: #920000;
   color: white;
+}
+
+.col-sm-3 a {
+  color: lightblue;
+}
+
+.col-sm-3 a:hover {
+  color: #f0ad4e;
 }
 
 .col-sm-3 h4 {
