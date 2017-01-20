@@ -2,8 +2,29 @@ h1 {
   text-align: center;
 }
 
+.jumbotron {
+  margin-bottom: 0;
+  background: image("../img/pingpong.jpg");
+  position: relative;
+}
+
 pre {
   border: none;
   background-color: white;
   line-height: 2rem;
+}
+
+.col-xs-3 {
+  background-color: green;
+  height: 100vh;
+}
+
+.col-xs-3 h4 {
+  margin-top: 20px;
+}
+
+.col-xs-9 {
+  background-color: violet;
+  height: 100vh;
+  padding-left: 5rem;
 }
