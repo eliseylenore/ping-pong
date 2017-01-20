@@ -115,6 +115,10 @@ pre {
   .col-sm-9 form {
     margin-top: 10rem;
   }
+}
 
-
+@media (min-width: 1200px) {
+  .col-sm-3 {
+    max-width: 280px;
+  }
 }
