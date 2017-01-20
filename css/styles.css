@@ -2,7 +2,7 @@ body {
   font-family: 'Itim', cursive;
 }
 
-p, li, label {
+p, li, label, button {
   font-size: 1.7rem;
 }
 
