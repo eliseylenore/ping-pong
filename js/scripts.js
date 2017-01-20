@@ -7,16 +7,18 @@ var pingPongCount = function(userInput) {
   //function to count from 1-userNumber
   var countUp = function(userInput) {
     var outputNumber = '';
-    for (i = 1; i < userNumber ; i++) {
+    for (i = 0; i <= userNumber ; i++) {
       console.log(i);
-      if (i % 15 === 0) {
-        outputNumber += "ping-pong" + " ";
+      if(i === 0) {
+        outputNumber += "" + "\n"
+      } else if (i % 15 === 0) {
+        outputNumber += "ping-pong" + "\n";
       } else if (i % 5 === 0) {
-        outputNumber += "pong" + " ";
+        outputNumber += "pong" + "\n";
       } else if (i % 3 === 0) {
-        outputNumber += "ping" + " ";
+        outputNumber += "ping" + "\n";
       } else {
-        outputNumber += i +  " ";
+        outputNumber += i + "\n";
       }
       console.log(outputNumber);
     }
