@@ -3,19 +3,28 @@ h1 {
 }
 
 .jumbotron {
+  color: white;
+  text-shadow: 2px 2px #eea236;
   margin-bottom: 0;
-  background: image("../img/pingpong.jpg");
-  position: relative;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+    ),
+  url(../img/pingpong.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 pre {
   border: none;
-  background-color: white;
   line-height: 2rem;
 }
 
 .col-xs-3 {
-  background-color: green;
+  padding-left: 3rem;
+  background-color: #920000;
+  color: white;
   height: 100vh;
 }
 
@@ -23,8 +32,15 @@ pre {
   margin-top: 20px;
 }
 
+.col-xs-3 h5 {
+  margin-top: 3rem;
+}
+
+.col-xs-9, pre {
+  background-color: white;
+}
+
 .col-xs-9 {
-  background-color: violet;
   height: 100vh;
   padding-left: 5rem;
 }
