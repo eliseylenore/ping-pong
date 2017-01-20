@@ -26,7 +26,7 @@ var pingPongCount = function(userInput) {
   }
   //determines if input can be counted to
   if (userInput.search(/^[0-9]+$/)|| userNumber < 1) {
-    return "I'm sorry, we weren't able to count up to that number. Please make sure that you are entering a number and it is more than zero. Also, please type the digit (3) instead of the word (three)."
+    return "\nI'm sorry, we weren't \able to count up to that number. \nPlease make sure that you are entering a number and it \nis more than zero. Also, please type the digit (3) instead \nof the word (three)."
   } else {
     return countUp(userInput);
   }

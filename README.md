@@ -51,7 +51,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+I was not able to append the results to a div in the HTML, since it was showing the line break code when I tried. Instead, I used the <pre> tag to show the code. This was problematic when it came to formatting the error message. In some screens, you may have to use a scroll bar within the page to view all of the error message. 
 
 ## Support and contact details
 
