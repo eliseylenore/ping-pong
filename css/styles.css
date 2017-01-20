@@ -1,3 +1,5 @@
+/************  Basic Styles  ************/
+
 body {
   font-family: 'Itim', cursive;
 }
@@ -42,7 +44,9 @@ pre {
   line-height: 2rem;
 }
 
-.col-sm-9 {
+/************  Big Column Styles  ************/
+
+.col-sm-9, .col-sm-3 {
   margin-top: 4rem;
 }
 
@@ -54,10 +58,12 @@ pre {
   background-color: white;
 }
 
-.col-sm-9,  .col-sm-3 {
+.col-sm-9 {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+/************  Small Column Styles  ************/
 
 .col-sm-3 {
   padding-left: 3rem;
@@ -84,6 +90,7 @@ pre {
 
 
 
+/************  Media Queries  ************/
 
 @media (min-width: 768px) {
   .jumbotron h1 {
