@@ -2,7 +2,7 @@ body {
   font-family: 'Itim', cursive;
 }
 
-p, li, label, button {
+p, li, label, .btn {
   font-size: 1.7rem;
 }
 
@@ -27,8 +27,8 @@ h1, .col-sm-9 h3 {
   text-shadow: 3px 3px #920000;
   margin-bottom: 0;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
+    rgba(52, 79, 100, 0.5),
+    rgba(52, 79, 100, 0.5)
     ),
   url(../img/pingpong.jpg);
   background-position: 50% 50%;
@@ -89,10 +89,12 @@ pre {
   .jumbotron h1 {
     font-size: 80px;
     text-shadow: 4px 4px #920000;
+    padding-top: 0;
   }
 
   .jumbotron {
     background-position: 30% 0%;
+    padding-bottom: 10rem;
   }
 
   .col-sm-9, .col-sm-3 {
@@ -111,7 +113,7 @@ pre {
   }
 
   .col-sm-9 form {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
 
