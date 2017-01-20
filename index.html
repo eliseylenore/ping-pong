@@ -8,7 +8,21 @@
     <title>Ping-Pong</title>
   </head>
   <body class="container">
-
-
+    <h1>Ping-Pong</h1>
+    <p>We will count to your number from 1 with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become "ping".</li>
+        <li>Numbers divisible by 5 become "pong".</li>
+        <li>Numbers divisible by 15 become "ping-pong".</li>
+      </ol>
+    <form>
+      <div class="form-group">
+        <label for="input">Enter your number here:</label>
+        <input class="form-control" type="text" id="input">
+      </div>
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+    <div id="output">
+    </div>
   </body>
 </html>
