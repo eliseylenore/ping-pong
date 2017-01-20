@@ -58,10 +58,11 @@ pre {
 }
 
 .col-sm-9, pre {
-  background-color: white;
+  background-color: #f1dca0;
 }
 
 .col-sm-9 {
+  color: #55554b;
   padding-left: 5rem;
   padding-right: 5rem;
 }
