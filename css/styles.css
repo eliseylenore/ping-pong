@@ -57,7 +57,7 @@ pre {
   font-size: 32px;
 }
 
-.col-sm-9, pre {
+.col-sm-9, pre, body {
   background-color: #f1dca0;
 }
 
