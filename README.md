@@ -33,36 +33,26 @@
 * Output: ping-pong*
 
 
-
-
-## Description
-
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
-
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* You can view this page at: https://eliseylenore.github.io/ping-pong/
+* You can also clone the repository to preview the site in your browser.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-I was not able to append the results to a div in the HTML, since it was showing the line break code when I tried. Instead, I used the <pre> tag to show the code. This was problematic when it came to formatting the error message. In some screens, you may have to use a scroll bar within the page to view all of the error message. 
+I was not able to append the results to a div in the HTML, since it was showing the line break code when I tried. Instead, I used the <pre> tag to show the code. This was problematic when it came to formatting the error message. In some screens, you may have to use a scroll bar within the page to view all of the error message.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you run into issues, I would appreciate if you let me know. Just message me at eliseylenore@gmail.com._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_In addition to HTML and CSS, I used jQuery and JavaScript for this project._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*These webpages are licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Elise St Hilaire_**
